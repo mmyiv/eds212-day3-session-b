@@ -1,0 +1,51 @@
+---
+title: "vector pracrtive day 3 session b"
+author: "mish"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+# Create and store the vector ----
+marmots <- c("blue", "green", 4, "yellow")
+# Return it ----
+marmots
+# Check class ----
+class(marmots)
+```
+
+```{r}
+pika <- c(12.4, 6.8, 2.9, 8.8, 5)
+pika
+class(pika)
+```
+
+```{r}
+#create the integer vector ----
+bear <- c(20L, 3L, 5L, 18L, 23L)
+bear
+class(bear)
+```
+
+## Vector Math
+
+```{r}
+# Create some vectors ----
+ringtail <- c(4.3, 8.9, 2.6, 7.1)
+fox <- c(9.0, 12.5, 5.4, 10.9)
+
+# add ----
+ringtail + fox
+
+# subtract ----
+fox - ringtail
+
+# scalar multiplier ----
+100 * ringtail
+
+#dot product ----
+ringtail %*% fox
+```
+
